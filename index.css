@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+    font-size: 14px;
+box-sizing: border-box;
+}
+body{
+    background:url(./black4.jpg) no-repeat fixed;
+    background-size: cover;
+    /* background-position: center; */
+    
+}
+body::after{
+    content: ''; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 255, 90, 0.3);
+    filter: saturate(70%);
+}
+#main_div{
+
+}
+img .kp_logo{
+    margin:0 auto;
+    display: block;
+    /* filter: grayscale(10%) contrast(-20%) brightness(90%); */
+height: 500px;
+}
