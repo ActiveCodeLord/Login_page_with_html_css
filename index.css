@@ -12,20 +12,102 @@ body{
 }
 body::after{
     content: ''; 
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     background-color: rgba(0, 255, 90, 0.3);
-    filter: saturate(70%);
+    filter: saturate(-80%);
+    z-index: -1;
 }
 #main_div{
 
 }
-img .kp_logo{
+#kp_container{
+    /* background-olor: red; */
+    height:90px;
+    display:flex;
+    justify-content: center;
+}
+nav{
+    display:flex
+}
+li{
+    list-style: none;
+    text-decoration-color:#ffffff;
+    padding: 20px;
+}
+.left-nav{
+margin-left: 100px;
+}
+
+.right-nav{
+    
+}
+    a{
+        text-decoration: none;
+        color:#ffffff;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:20px;
+    }
+.li-img{
+    height:30px;
+    width:30px;
+    background-color: white;
+}
+
+#kp_logo_container{
+    
+}
+img.kp_logo{
     margin:0 auto;
     display: block;
     /* filter: grayscale(10%) contrast(-20%) brightness(90%); */
-height: 500px;
+height: 100px;
+}
+
+#kwara_poly_line{
+text-align: center;
+margin-top:10px;
+font-size: 18px;
+padding-left: 60px;
+background-color:#88e69f;
+color:#3562A0;
+}
+
+#kwara_poly_line{
+    justify-content: center;
+}
+#login_container{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+#login{
+    background-color:lavender;
+    text-align: center;
+    display:inline-block;
+    height: 350px;
+    width:400px;
+}
+input{
+    background-color: white;
+width:300px;
+height:44px;
+margin-bottom: 8px;
+padding:0px;
+margin-top:0px;
+}
+button{
+    background-color: green;
+    text-align: center;
+width:300px;
+height:30px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:#ffffff;
 }
